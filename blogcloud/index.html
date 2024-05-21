@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">Blog CN</h1>
+                </a>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Sistemas em nuvem AWS e MICROSFT</h1>
+                    <p class="text-white mb-4 animated slideInRight">Ranking dos sistemas baseados em nuvem</p>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/cloud.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/about-img.png">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="mb-4">Introdução</h1>
+                    <p class="mb-4">Os sistemas em nuvem se tornaram uma peça fundamental no cenário tecnológico
+                        contemporâneo, revolucionando a forma como indivíduos e organizações armazenam, gerenciam e
+                        acessam informações. Sua importância é notável devido à capacidade de oferecer soluções
+                        escaláveis, flexíveis e eficientes que atendem às demandas dinâmicas do mercado global.</p>
+                    <p class="mb-4">A computação em nuvem permite a empresas de todos os tamanhos reduzir custos
+                        operacionais, aumentar a agilidade e promover a inovação ao disponibilizar recursos de TI sob
+                        demanda, eliminando a necessidade de grandes investimentos em infraestrutura física.</p>
+                    <p class="mb-4">O objetivo deste blog é fornecer informações claras e objetivas sobre os serviços de
+                        computação em nuvem oferecidos pela AWS (Amazon Web Services) e Microsoft. Vamos destacar suas
+                        principais funcionalidades e como podem ser aplicadas em contextos educacionais e profissionais.
+                        Nosso intuito é ajudar você a entender melhor esses serviços, suas vantagens e como podem ser
+                        utilizados para melhorar processos, aumentar a eficiência e promover o desenvolvimento tanto no
+                        ambiente acadêmico quanto no corporativo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Introdução End -->
+
+
+    <!-- Quadro comparativo Start -->
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center justify-content-center">
+                <div class="col-lg-10 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="mb-4">Quadro comparativo</h1>
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Categoria</th>
+                                    <th>AWS</th>
+                                    <th>Microsoft Azure</th>
+                                    <th>Diferenças/Semelhanças</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Armazenamento</td>
+                                    <td>S3 (Simple Storage Service)</td>
+                                    <td>Blob Storage</td>
+                                    <td>Ambos oferecem armazenamento escalável e seguro.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>EBS (Elastic Block Store)</td>
+                                    <td>Disk Storage</td>
+                                    <td>Serviços de armazenamento em bloco para VMs.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Glacier</td>
+                                    <td>Cool Blob Storage, Archive Storage</td>
+                                    <td>Armazenamento de longo prazo e baixo custo.</td>
+                                </tr>
+                                <tr>
+                                    <td>Computação</td>
+                                    <td>EC2 (Elastic Compute Cloud)</td>
+                                    <td>Virtual Machines (VMs)</td>
+                                    <td>Instâncias de computação escaláveis.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Lambda</td>
+                                    <td>Azure Functions</td>
+                                    <td>Computação serverless para eventos.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>ECS (Elastic Container Service), EKS</td>
+                                    <td>Azure Kubernetes Service (AKS)</td>
+                                    <td>Gerenciamento de contêineres.</td>
+                                </tr>
+                                <tr>
+                                    <td>Banco de Dados</td>
+                                    <td>RDS (Relational Database Service)</td>
+                                    <td>Azure SQL Database</td>
+                                    <td>Serviços gerenciados de banco de dados relacional.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>DynamoDB</td>
+                                    <td>Cosmos DB</td>
+                                    <td>Bancos de dados NoSQL totalmente gerenciados.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Aurora</td>
+                                    <td>Azure Database for PostgreSQL, MySQL</td>
+                                    <td>Bancos de dados compatíveis com MySQL/PostgreSQL.</td>
+                                </tr>
+                                <tr>
+                                    <td>Segurança</td>
+                                    <td>IAM (Identity and Access Management)</td>
+                                    <td>Azure Active Directory (AAD)</td>
+                                    <td>Gerenciamento de identidade e acesso.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>KMS (Key Management Service)</td>
+                                    <td>Azure Key Vault</td>
+                                    <td>Gerenciamento de chaves de criptografia.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Shield, WAF (Web Application Firewall)</td>
+                                    <td>Azure Security Center, Azure DDoS Protection</td>
+                                    <td>Proteção contra ameaças e segurança de rede.</td>
+                                </tr>
+                                <tr>
+                                    <td>Rede</td>
+                                    <td>VPC (Virtual Private Cloud)</td>
+                                    <td>Virtual Network</td>
+                                    <td>Redes virtuais privadas para recursos na nuvem.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Route 53</td>
+                                    <td>Azure DNS</td>
+                                    <td>Serviços de DNS escaláveis.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>CloudFront (CDN)</td>
+                                    <td>Azure CDN</td>
+                                    <td>Distribuição de conteúdo globalmente.</td>
+                                </tr>
+                                <tr>
+                                    <td>Ferramentas de DevOps</td>
+                                    <td>CodePipeline, CodeBuild, CodeDeploy</td>
+                                    <td>Azure DevOps, Azure Pipelines</td>
+                                    <td>Ferramentas para CI/CD e automação de desenvolvimento.</td>
+                                </tr>
+                                <tr>
+                                    <td>IA e Machine Learning</td>
+                                    <td>SageMaker</td>
+                                    <td>Azure Machine Learning</td>
+                                    <td>Plataformas para construir, treinar e implantar modelos de ML.</td>
+                                </tr>
+                                <tr>
+                                    <td>Análise de Dados</td>
+                                    <td>Redshift</td>
+                                    <td>Azure Synapse Analytics</td>
+                                    <td>Serviços de data warehousing.</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Athena</td>
+                                    <td>Azure Data Lake Analytics</td>
+                                    <td>Consultas interativas de big data.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tabela comparativa End -->
+
+
+    <!-- Dicas Start -->
+    <div class="container-fluid bg-primary feature pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <h1 class="text-white mb-4">Dicas para Otimizar o Uso da Microsoft Azure:</h1>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Utilize Auto Scaling: Configure grupos de auto scaling para dimensionar automaticamente o número de instâncias EC2 com base na demanda.</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Monitore e Otimize o Uso dos Recursos: Utilize serviços de monitoramento como o Amazon CloudWatch para monitorar o uso dos recursos.</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Use Serviços Gerenciados: Opte por serviços gerenciados, como RDS (Relational Database Service) e ECS (Elastic Container Service).</span>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 align-self-left text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="text-white mb-4">Dicas para Otimizar o Uso da AWS:</h1>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <span>Planeje e Aplique Tags de Recursos: Organize seus recursos usando tags para facilitar a identificação, gerenciamento e alocação de custos.</span>
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <span>Aproveite os Descontos de Reserva: Use instâncias reservadas e vantagens híbridas para obter descontos significativos em instâncias virtuais, SQL Database e outros serviços.</span>
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <span>Implemente Políticas de Segurança: Utilize as ferramentas de segurança e conformidade da Azure, como Azure Security Center e Azure Policy, para garantir a conformidade e proteger seus dados e recursos contra ameaças cibernéticas.</span>
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Case Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="mb-4">Últimas atualizações e lançamentos</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/project-1.png" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://aws.amazon.com/pt/about-aws/whats-new/2024/05/amazon-rds-postgresql-pgvector-0-7-0/">
+                            <small>Amazon RDS para PostgreSQL</small>
+                            <h5 class="lh-base text-white mb-3">Oferece suporte ao pgvector 0.7.0, uma extensão de código aberto do PostgreSQL.
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/project-2.png" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://learn.microsoft.com/pt-br/fabric/get-started/microsoft-fabric-overview">
+                            <small>Microsoft Fabric</small>
+                            <h5 class="lh-base text-white mb-3">O Microsoft Fabric foi criado com base em SaaS (software como serviço).
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/project-3.png" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://aws.amazon.com/pt/about-aws/whats-new/2024/05/amazon-mq-rabbitmq-version-3-12/">
+                            <small>Amazon X RabbitMQ</small>
+                            <h5 class="lh-base text-white mb-3">Amazon MQ já oferece suporte ao RabbitMQ versão 3.12
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Case End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5 justify-content-center">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">Blog<span class="text-primary">.</span>CN</h1>
+                    </a>
+                    <p class="mb-0">Blog solicitado o desenvolvimento sendo parte de atividade avaliativa da disciplina de computação em nuvem - Moisés Lima</p>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#"></a>Todos os direitos reservados.
+                        Desenvolvido por <a class="border-bottom" href="https://www.linkedin.com/in/ver%C3%B4nica-lobo-de-santana-05913814a/">Veronica Lobo</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
